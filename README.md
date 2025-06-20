@@ -1,3 +1,28 @@
+# 🧠 Sports Trivia Quiz App
+
+A dynamic sports trivia quiz built with **Next.js App Router** and **Tailwind CSS**, powered by the [Open Trivia Database API](https://opentdb.com/). This app challenges users with multiple-choice questions, tracks their answers, and displays a results screen with correct and incorrect answers highlighted.
+
+---
+
+## 🚀 Features
+
+- ✅ **Live sports trivia** pulled from OpenTDB API
+- 🔄 **Randomized answer order** for each question
+- 🧠 **User answer tracking** via `useState`
+- 💾 **localStorage integration** to persist quiz data across pages
+- 📊 **Score calculation** and post-quiz review screen
+- 🧭 **Next.js App Router** for routing between quiz and results
+- 🎨 **Tailwind CSS styling** for responsive, modern UI
+- 🔐 **Client-side rendering** for fast UX
+
+---
+
+## 📡 API Source
+
+Data is fetched from:
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
