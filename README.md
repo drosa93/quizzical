@@ -19,7 +19,63 @@ A dynamic sports trivia quiz built with **Next.js App Router** and **Tailwind CS
 
 ## 📡 API Source
 
-Data is fetched from:
+Data is fetched from: https://opentdb.com/api.php?amount=10&category=21&difficulty=medium&type=multiple
+
+
+- Category: Sports
+- Type: Multiple Choice
+- Difficulty: Medium
+- Amount: 10 questions
+
+Each question includes:
+- The question text
+- One correct answer
+- Three incorrect answers
+
+---
+
+✅ How It Works
+User starts the quiz on the homepage.
+
+Questions are fetched and displayed with shuffled answers.
+
+Selections are stored in React state.
+
+On quiz submission:
+
+Questions and answers are saved to localStorage.
+
+User is routed to the /checked-questions page.
+
+The result page reads from localStorage:
+
+Shows each question
+
+Highlights correct and incorrect selections
+
+Displays total score
+
+📌 Ideas for Future Improvements
+Add difficulty and category selectors
+
+Timer per question
+
+Persist scores in a Supabase database
+
+Animations for transitions
+
+Track score history
+
+💡 Credits
+Trivia Data: Open Trivia Database
+
+## 🗂 Tech Stack
+
+- [Next.js 14 (App Router)](https://nextjs.org/docs/app)
+- [React](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [OpenTDB API](https://opentdb.com/)
+- `localStorage` for client-side persistence
 
 
 
